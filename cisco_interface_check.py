@@ -3,7 +3,7 @@ import os
 
 device = {
     "device_type": "cisco_ios",
-   #"host": "54.90.112.247",
+
     "host":os.getenv("CISCO_HOST"),
     "username": os.getenv("CISCO_USERNAME"),
     "password": os.getenv("CISCO_PASSWORD")
